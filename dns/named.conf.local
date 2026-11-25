@@ -1,0 +1,5 @@
+// /etc/bind/named.conf.local - Cardeal Ltda.
+zone "cardeal.local" {
+    type master;
+    file "/etc/bind/db.cardeal.local";
+};

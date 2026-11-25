@@ -1,0 +1,8 @@
+# /etc/netplan/99-lan.yaml (VM 1 - Gateway)
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s8:
+      addresses:
+        - 192.168.10.1/24

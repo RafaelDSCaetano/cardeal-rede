@@ -1,0 +1,14 @@
+# Arquivos temporários e de sistema
+*.swp
+*.swo
+*~
+.DS_Store
+__pycache__/
+*.pyc
+
+# Imagens de disco de VMs (nunca subir discos do VirtualBox!)
+*.vdi
+*.vmdk
+*.ova
+*.iso
+*.vbox-prev
